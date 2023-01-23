@@ -99,6 +99,7 @@ body {
 .header__poorly-seeing-version {
     width: 140px;
     height: 40px;
+    background: #DFDFDF;
     border: 1.5px solid #85888D;
     border-radius: 20px;
     display: flex;
@@ -119,7 +120,7 @@ body {
     font-size: 8px;
     line-height: 11px;
 }
-.header__popup-button {
+.header__burger-menu {
     display: flex;
     align-items: center;
     justify-content: center;
