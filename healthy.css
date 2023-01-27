@@ -199,13 +199,14 @@ body {
 .info-layout {
     background: #FAF4F4;
 }
-/*.bg-element {
-    position: relative;
+/*
+.bg-element {
     left: 69.17%;
     right: 0%;
     top: 0%;
     bottom: 64.19%;
-}*/
+}
+*/
 .info-layout__container {
     padding: 67px 0 99px 0;
 }
