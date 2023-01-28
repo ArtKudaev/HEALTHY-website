@@ -357,6 +357,32 @@ body {
     .about-us {
         margin-top: 182px;
     }
+    .info-layout__container {
+        padding: 45px 0 53px 0;
+    }
+    .info-layout__title {
+        margin: 0 auto 41px;
+    }
+    .info-layout__cards {
+        column-gap: 20px;
+        row-gap: 26.67px;
+        margin-bottom: 40.67px;
+    }
+    .info-layout__card {
+        width: 300px;
+        height: 338.33px;
+    }
+    .info-layout__img {
+        width: 300px;
+        height: 196.67px;
+        margin-bottom: 22.5px;
+    }
+    .info-layout__text {
+        margin: 0 0 15px 20.8px;
+    }
+    .info-layout__date {
+        margin-left: 20.8px;
+    }
 }
 @media screen and (max-width: 960px) {
     .header {
@@ -378,18 +404,30 @@ body {
         margin-right: 23px;
     }
     .container {
-        width: 458px;
+        width: 620px;
     }
     .info-link-section {
         flex-direction: column;
         gap: 106px;
     }
+    .info-link-section__content {
+        padding: 0 81px 0;
+    }
     .about-us {
         margin-top: 43px;
     }
     .about-us__pic--margin {
-        margin-top: 0;
-        margin-bottom: 59px;
+        margin: 0 auto 59px;
+    }
+    .info-layout__container {
+        padding: 68.45px 0 68px 0;
+    }
+    .info-layout__title {
+        margin: 0 auto 55.55px;
+    }
+    .info-layout__cards {
+        row-gap: 23.67px;
+        margin-bottom: 78.67px;
     }
 }
 @media screen and (max-width: 640px) {
@@ -411,6 +449,20 @@ body {
     .about-us__pic--margin {
         margin-bottom: 128px;
     }
+    .container {
+        width: 460px;
+    }
+    .info-layout__container {
+        padding: 39px 0 71px 0;
+    }
+    .info-layout__title {
+        margin: 0 auto 41px;
+    }
+    .info-layout__cards {
+        gap: 23.67px;
+        justify-content: center;
+        margin-bottom: 64.67px;
+    }
 }
 @media screen and (max-width: 480px) {
     .header__logo {
@@ -423,7 +475,11 @@ body {
         width: 300px;
     }
     .info-link-section {
+        justify-content: center;
         gap: 28px;
+    }
+    .info-link-section__content {
+        padding: 0;
     }
     .info-link-section__title {
         margin-bottom: 15px;
@@ -440,6 +496,14 @@ body {
     .about-us__pic--margin {
         width: 300px;
         height: 300px;
-        margin-bottom: 300px;
+        margin: 0 auto 300px;
+    }
+    .info-layout__container {
+        padding: 39px 0 54px 0;
+    }
+    .info-layout__title {
+        font-size: 24px;
+        line-height: 35px;
+        margin: 0 auto 38px;
     }
 }
