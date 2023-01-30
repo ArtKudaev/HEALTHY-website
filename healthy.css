@@ -198,15 +198,17 @@ body {
 /*-----------------INFO-LAYOUT-----------------*/
 .info-layout {
     background: #FAF4F4;
+    position: relative;
+    z-index: 1;
 }
-/*
-.bg-element {
+.bg-element-green {
+    position: absolute;
     left: 69.17%;
     right: 0%;
     top: 0%;
     bottom: 64.19%;
+    z-index: 2;
 }
-*/
 .info-layout__container {
     padding: 67px 0 99px 0;
 }
@@ -226,6 +228,9 @@ body {
     column-gap: 40px;
     row-gap: 32px;
     margin-bottom: 66px;
+    position: absolute;
+    position: relative;
+    z-index: 3;
 }
 .info-layout__card {
     width: 360px;
@@ -241,7 +246,6 @@ body {
 .info-layout__text {
     display: block;
     margin: 0 0 49px 25px;
-
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 16px;
@@ -265,9 +269,23 @@ body {
 .publications {
     margin-top: 185px;
 }
+.bg-element-yellow {
+    position: absolute;
+    left: 69.17%;
+    right: 0%;
+    top: 0%;
+    bottom: 50.67%;
+    z-index: 2;
+}
+.info-link-section--for-bg-element {
+    position: relative;
+    z-index: 1;
+}
 .publications__pic--margin {
     margin-top: 169px;
     margin-bottom: 171px;
+    position: relative;
+    z-index: 3;
 }
 .scientific-work {
     display: flex;
@@ -306,7 +324,7 @@ body {
 }
 .publications__button {
     width: 143px;
-    margin-top: 19px;
+    margin-top: 53px;
 }
 /*------------------TEAM---------------------*/
 
@@ -356,6 +374,17 @@ body {
     }
     .about-us {
         margin-top: 182px;
+    }
+    .bg-element-green {
+        display: none;
+    }
+    .bg-element-yellow {
+        width: 460px;
+        height: 460px;
+        left: 54%;
+        right: 0%;
+        top: 7.08%;
+        bottom: 29.03%;
     }
     .info-layout__container {
         padding: 45px 0 53px 0;
@@ -413,6 +442,14 @@ body {
     .info-link-section__content {
         padding: 0 81px 0;
     }
+    .bg-element-yellow {
+        width: 460px;
+        height: 460px;
+        left: 26.56%;
+        right: 1.56%;
+        top: 47.51%;
+        bottom: 15.51%;
+    }
     .about-us {
         margin-top: 43px;
     }
@@ -451,6 +488,14 @@ body {
     }
     .container {
         width: 460px;
+    }
+    .bg-element-yellow {
+        width: 460px;
+        height: 460px;
+        left: 2.08%;
+        right: 2.08%;
+        top: 47.51%;
+        bottom: 15.51%;
     }
     .info-layout__container {
         padding: 39px 0 71px 0;
@@ -497,6 +542,14 @@ body {
         width: 300px;
         height: 300px;
         margin: 0 auto 300px;
+    }
+    .bg-element-yellow {
+        width: 300px;
+        height: 300px;
+        left: 3.12%;
+        right: 3.12%;
+        top: 65.31%;
+        bottom: 11.62%;
     }
     .info-layout__container {
         padding: 39px 0 54px 0;
