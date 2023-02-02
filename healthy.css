@@ -37,6 +37,11 @@ body {
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+.container {
+    width: 1160px;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
 /*--------------------------HEADER------------------*/
 .header {
     display: flex;
@@ -143,11 +148,6 @@ body {
 }
 /*----------------MAIN-----------------------------*/
 /*------------------INFO-LINK-SECTION------------------*/
-.container {
-    width: 1160px;
-    margin: 0 auto;
-    box-sizing: content-box;
-}
 .info-link-section {
     display: flex;
     gap: 56px;
@@ -269,6 +269,9 @@ body {
 .publications {
     margin-top: 185px;
 }
+.publications-gap {
+    gap: 136px;
+}
 .bg-element-yellow {
     position: absolute;
     left: 69.17%;
@@ -353,15 +356,31 @@ body {
         width: 940px;
     }
     .info-link-section {
-        gap: 22px;
+        gap: 16px;
+    }
+    .publications {
+        margin-top: 63px;
+    }
+    .publications__pic--margin {
+        margin-top: 178px;
+        margin-bottom: 81px;
+    }
+    .scientific-work {
+        width: 460px;
+        margin-bottom: 32px;
     }
     .info-link-section__title {
-        margin-bottom: 37px;
-        width: 458px;
+        margin-top: 12px;
+        margin-bottom: 61px;
+        width: 464px;
     }
     .info-link-section__text {
         margin-bottom: 50px;
         width: 437px;
+    }
+    .info-link-section__pic {
+        width: 460px;
+        height: 461px;
     }
     .about-us__button {
         width: 140px;
@@ -402,9 +421,11 @@ body {
         height: 338.33px;
     }
     .info-layout__img {
+        margin-bottom: 22.5px;
+    }
+    .info-layout__img--size {
         width: 300px;
         height: 196.67px;
-        margin-bottom: 22.5px;
     }
     .info-layout__text {
         margin: 0 0 15px 20.8px;
@@ -437,14 +458,19 @@ body {
     }
     .info-link-section {
         flex-direction: column;
-        gap: 106px;
+        gap: 0;
     }
     .info-link-section__content {
-        padding: 0 81px 0;
+        margin: 63px auto 0;
+    }
+    .info-link-section__title {
+        margin-top: 0;
+        margin-bottom: 59px;
+    }
+    .publications__pic--margin {
+        margin: 127px auto 65px;
     }
     .bg-element-yellow {
-        width: 460px;
-        height: 460px;
         left: 26.56%;
         right: 1.56%;
         top: 47.51%;
@@ -480,8 +506,10 @@ body {
     .header__poorly-seeing-version {
         display: none;
     }
-    .info-link-section {
-        gap: 38px;
+    .info-link-section__title {
+        margin-bottom: 77px;
+        font-size: 24px;
+        line-height: 35px;
     }
     .about-us__pic--margin {
         margin-bottom: 128px;
@@ -490,8 +518,6 @@ body {
         width: 460px;
     }
     .bg-element-yellow {
-        width: 460px;
-        height: 460px;
         left: 2.08%;
         right: 2.08%;
         top: 47.51%;
@@ -524,11 +550,11 @@ body {
         gap: 28px;
     }
     .info-link-section__content {
-        padding: 0;
+        margin: 70px auto 0;
     }
     .info-link-section__title {
-        margin-bottom: 15px;
-        width: 268px;
+        margin-bottom: 47px;
+        width: 263px;
         font-size: 24px;
         line-height: 35px;
     }
@@ -537,6 +563,21 @@ body {
         width: 300px;
         font-size: 22px;
         line-height: 21px;
+    }
+    .info-link-section__pic {
+        width: 300px;
+        height: 300px;
+    }
+    .scientific-work {
+        flex-direction: column;
+        gap: 10px;
+        width: 300px;
+    }
+    .publications__button {
+        margin-top: 41px;
+    }
+    .publications__pic--margin {
+        margin: 137px auto 70px;
     }
     .about-us__pic--margin {
         width: 300px;
