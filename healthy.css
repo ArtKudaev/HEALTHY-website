@@ -339,13 +339,65 @@ body {
 .team-block-title {
     margin: 0 auto 43px;
 }
-.info-layout__input {
-    display: block;
+.info-layout__search-form {
+    display: flex;
+    justify-content: space-between;
     width: 760px;
     height: 52px;
     border: 1px solid #85888D;
     border-radius: 26px;
-    margin: 0 auto 66px;
+    margin: 0 auto 136px;
+}
+.info-layout__input {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #85888D;
+    margin-left: 21px;
+    outline: none;
+}
+.info-layout__select {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    color: #85888D;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    padding-right: 27px;
+}
+.info-layout__select-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-right: 13.5px;
+}
+.info-layout__select-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 1px;
+    transform: translateY(-50%);
+    display: block;
+    width: 14.81px;
+    height: 8.03px;
+    background-image: url("img/select-arrow.svg");
+    pointer-events: none;
+}
+.info-layout__search-block {
+    display: flex;
+}
+.header__search-button--mgn {
+    margin: 7px 7px 5px 0;
 }
 .team-block__cards {
     row-gap: 102px;
@@ -362,10 +414,8 @@ body {
     display: block;
     position: absolute;
     z-index: 1;
-    left: 17.36%;
-    right: 72.92%;
-    top: 22.61%;
-    bottom: 64.98%;
+    left: 30%;
+    bottom: 76%;    
 }
 .team-block__name {
     display: block;
