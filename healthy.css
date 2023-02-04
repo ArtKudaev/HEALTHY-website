@@ -455,6 +455,9 @@ body {
     letter-spacing: 0.01em;
     color: #00B9F2;
 }
+.info-layout__search-form--for480 {
+    display: none;
+}
 /*---------------------MEDIA QUERIES--------------------*/
 @media screen and (max-width: 1200px) {
     .header {
@@ -557,6 +560,29 @@ body {
     .info-layout__date {
         margin-left: 20.8px;
     }
+    .info-layout__search-form {
+        width: 620px;
+    }
+    .header__search-button--mgn {
+        margin: 7px 7px 5px 0;
+    }
+    .team-block__cards {
+        column-gap: 20px;
+        row-gap: 102px;
+    }
+    .team-block__card {
+        width: 300px;
+        height: 300px;
+    }
+    .team-block__name {
+        width: 267px;
+    }
+    .team-block__function {
+        width: 267px;
+    }
+    .info-layout__search-form--for480 {
+        display: none;
+    }
 }
 @media screen and (max-width: 960px) {
     .header {
@@ -616,6 +642,19 @@ body {
         row-gap: 23.67px;
         margin-bottom: 78.67px;
     }
+    .info-layout__container {
+        padding: 87px 0 111px 0;
+    }
+    .team-block-title {
+        margin: 0 auto 66px;
+    }
+    .team-block__cards {
+        column-gap: 20px;
+        row-gap: 102px;
+    }
+    .info-layout__search-form--for480 {
+        display: none;
+    }
 }
 @media screen and (max-width: 640px) {
     .header__logo {
@@ -657,6 +696,22 @@ body {
         gap: 23.67px;
         justify-content: center;
         margin-bottom: 64.67px;
+    }
+    .info-layout__search-form {
+        width: 460px;
+    }
+    .team-block-title {
+        margin: 0 auto 66px;
+    }
+    .team-block__cards {
+        row-gap: 102px;
+    }
+    .header__search-button--mgn {
+        display: initial;
+        margin: 7px 7px 5px 0;
+    }
+    .info-layout__search-form--for480 {
+        display: none;
     }
 }
 @media screen and (max-width: 480px) {
@@ -723,5 +778,32 @@ body {
         font-size: 24px;
         line-height: 35px;
         margin: 0 auto 38px;
+    }
+    .info-layout__container {
+        padding: 52px 0 44px 0;
+    }
+    .team-block-title {
+        font-size: 24px;
+        line-height: 35px;
+        margin: 0 auto 40px;
+    }
+    .info-layout__search-form {
+        display: none;
+    }
+    .info-layout__search-form--for480 {
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+        margin-bottom: 17px;
+    }
+    .team-block__cards {
+       margin-top: 104px;
+    }
+    .info-layout__select-wrapper {
+        margin-right: 18.2px;
+    }
+    .info-layout__select {
+        margin-left: 15px;
+        padding-right: 137px;
     }
 }
