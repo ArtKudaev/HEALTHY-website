@@ -541,6 +541,12 @@ body {
 .appointment__content {
     margin: 164px 0 28px 0;
 }
+.info-link-section__title--appointment {
+    margin-bottom: 28px;
+}
+.info-link-section__text--appointment {
+    margin-bottom: 58px;
+}
 .appointment__pic {
     position: relative;
     z-index: 2;
@@ -726,6 +732,36 @@ body {
         width: 265.83px;
         height: 66px;
     }
+    .appointment {
+        padding: 147px 0 92px 0;   
+    }
+    .appointment__block {
+        gap: 90px;
+    }
+    .appointment__content {
+        margin: 49px 0 141px 0;
+    }
+    .info-link-section__title--appointment {
+        margin-bottom: 21px;
+    }
+    .info-link-section__text--appointment {
+        margin-bottom: 32px;
+    }
+    .appointment__pic {
+        width: 460px;
+        height: 461px;
+    }
+    .bg-element-blue {
+        width: 460px;
+        height: 460px;
+    }
+    .about-us__button--w210 {
+        width: 210px;
+    }
+    .bg-element-blue {
+        left: 58%;
+        bottom: 33%;
+    }
 }
 @media screen and (max-width: 960px) {
     .header {
@@ -807,6 +843,29 @@ body {
     .info-layout__cards--units {
         margin-bottom: 68px;
     }
+    .appointment {
+        padding: 77px 0 58px 0;   
+    }
+    .appointment__block {
+        gap: 135px;
+        flex-direction: column;
+    }
+    .appointment__content {
+        margin: 0;
+    }
+    .info-link-section__title--appointment {
+        width: 334px;
+    }
+    .info-link-section__text--appointment {
+        width: 390px;
+    }
+    .bg-element-blue {
+        left: 16%;
+        bottom: 11%;
+    }
+    .footer__content {
+        margin: 40px 0 40px 0;
+    }
 }
 @media screen and (max-width: 640px) {
     .header__logo {
@@ -870,6 +929,21 @@ body {
     }
     .info-layout__cards--units {
         margin-bottom: 57px;
+    }
+    .appointment {
+        padding: 77px 0 16px 0;   
+    }
+    .info-link-section__title--appointment {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .info-link-section__text--appointment {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .bg-element-blue {
+        left: 7%;
+        bottom: 13%;
     }
 }
 @media screen and (max-width: 480px) {
@@ -972,5 +1046,40 @@ body {
         font-size: 24px;
         line-height: 35px;
     }
-
+    .appointment {
+        padding: 41px 0 46px 0;
+    }
+    .appointment__block {
+        gap: 92px;
+    }
+    .appointment__content {
+        margin: 0;
+    }
+    .info-link-section__title--appointment {
+        margin-bottom: 27px;
+        width: 184px;
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .info-link-section__text--appointment {
+        margin-bottom: 28px;
+        width: 270px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .appointment__pic {
+        width: 300px;
+        height: 300px;
+    }
+    .bg-element-blue {
+        width: 300px;
+        height: 300px;
+    }
+    .appointment__buttons {
+        flex-direction: column-reverse;
+    }
+    .bg-element-blue {
+        left: 1%;
+        bottom: 9%;
+    }
 }
